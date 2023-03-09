@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5rem auto;
+    grid-template-columns: 1fr;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5rem;
+    font-family: "Audiowide", sans-serif;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+#elements ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#elements ul li {
+    list-style: none;
+}
+
+#elements ul a {
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    transition: 1.3s;
+}
+
+#elements ul a :hover {
+    color: yellow;
+}
+
+#middle {
+    color: white;
+    text-align: right;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+#inner-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#f {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#s {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+#t {
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+button {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+button:hover {
+    background-color: yellow;
+    font: bolder;
+}
